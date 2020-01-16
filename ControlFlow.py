@@ -1,10 +1,6 @@
-"""
-Programmer: Mr. Lange
-Date: 12.16.19
-Program: Guess My Number
-"""
-
-
+# Programmer: Mr. Lange
+# Date: 12.16.19
+# Program: Guess My Number
 
 myNumber = 7
 
@@ -23,12 +19,9 @@ print("\nCongratulations, you guessed my number!!!\n")
 
 
 
-
-"""
-Programmer: Mr. Lange
-Date: 12.19.19
-Program: 1 - 10
-"""
+# Programmer: Mr. Lange
+# Date: 12.19.19
+# Program: 1 - 10
 
 x = 1
 
