@@ -1,3 +1,4 @@
+
 # Programmer: Mr. Lange
 # Date: 12.16.19
 # Program: Guess My Number
@@ -33,6 +34,21 @@ x = 1
 while x <= 10:
     print(x)
     x+=1
+
+
+
+"""
+Programmer: Mr. Lange
+Date: 1.23.20
+Program: While Loop nested inside of a For Loop
+"""
+
+for i in range(4):
+    print("For loop: " + str(i))
+    x = i
+    while x >= 0:
+        print("\tWhile Loop: " + str(x))
+        x = x - 1
 
 
 
@@ -74,4 +90,19 @@ for i in range(how_many_tests):
 average = total / how_many_tests
 
 print("\nAverage: " + str(round(average, 2)))
+
+
+# Programmer: Mr. Lange
+# Date: 1.20.20
+# Program: Double For Loop
+
+for i in range(3):
+    print("Outer For loop " + str(i))
+    for k in range(4):
+        print("\tInner for loop " + str(k))
+
+
+
+
+
 
